@@ -1,5 +1,5 @@
 - 👋 Hi, I’m [CoralRadio](https://www.coralradio.com).
-- 👀 I’m interested in RF module
+- 👀 I’m interested in RF module.
 - 🌱 I’m currently learning wireless tech.
 - 💞️ We want to share wireless technology.
 - 📫 How to reach me ...
