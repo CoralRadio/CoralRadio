@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @CoralRadio
 - 👀 I’m interested in RF module
 - 🌱 I’m currently learning wireless tech.
-- 💞️ I’m looking to collaborate on ...
+- 💞️ We want to share wireless technology.
 - 📫 How to reach me ...
 - I work in Coral Radio.(www.coralradio.com)
 <!---
