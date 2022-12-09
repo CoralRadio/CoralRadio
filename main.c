@@ -1,5 +1,5 @@
 //N503BS CC1100E module from www.coralradio.com.
-//N503BS CC1100E module CW test.
+//N503BS CC1100E module 480MHz outputpower CW test.
 #include "msp430x21x2.h"
 #include "CC1100E.h"
 
