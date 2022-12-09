@@ -1,4 +1,5 @@
-//CC1100E module from www.coralradio.com.
+//N503BS CC1100E module from www.coralradio.com.
+//N503BS CC1100E module CW test.
 #include "msp430x21x2.h"
 #include "CC1100E.h"
 
@@ -208,7 +209,7 @@ main( void )
      IFG1&=~OFIFG;
      for(i=250;i>0;i--);
   }
-   while((IFG1&OFIFG)==OFIFG);   //当OSCFault＝1 即晶振不起振则等待
+   while((IFG1&OFIFG)==OFIFG);   //when OSCFault＝1, waiting
   BCSCTL2 = SELM1 +SELM0 + SELS;
   
   //--------------------------
@@ -218,7 +219,7 @@ main( void )
   POWER_UP_RESET();
 
   halRfWirteRfSettings_CC1100E();
-  paTable[0] = 0x60;  //CC1100E MAX OUTPUT POWER  0xC2为最大功率10dbm,0x60为0dbm
+  paTable[0] = 0xC2;  //CC1100E MAX OUTPUT POWER, 0xC2
   SPIWriteBurstReg(CCxxx0_PATABLE,paTable,paTableLen);
 
   halSpiStrobe(CCxxx0_SIDLE);
